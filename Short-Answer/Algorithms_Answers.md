@@ -3,7 +3,7 @@
 ## Exercise I
 
 a)
-The while loop has a runtime complexity of n^3 because it loops n^3 times. Not an ideal way to go about things.
+The while loop has a runtime complexity of O(n) because it loops O(n) times. Not an ideal way to go about things.
 
 b)
 Runtime would be O(n log n). This is due to the loop within a loop, where the outside loop has a runtime complexity of O(n). The inner loop has a runtime complexity of log(n) because the cursor is multiplied by 2 on each iteration and counts up to n.
